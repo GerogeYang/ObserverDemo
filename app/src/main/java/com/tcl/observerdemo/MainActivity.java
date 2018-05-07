@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(MainActivity.this,"取消注册",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.sendmessage:
-                message = "My name is Yang jian";
+                message = "My name is Mr Yang";
                 listener.sendMessage(message);
                 Toast.makeText(MainActivity.this,"发送消息："+message,Toast.LENGTH_SHORT).show();
                 String msg = observer.getMessage();
